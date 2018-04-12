@@ -1,0 +1,173 @@
+/*
+    global classes
+########################
+*/
+body{
+    margin:0;
+    padding:0;
+    /*background: #f1f1f1;*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBhhd_JQgqrtT8BF-rFS1W812ktKsxSn4EOO_AdVt1DK5yz3nlWQ");
+    overflow-x: hidden;
+}
+.text-center{
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.responsive-img{
+    width:100%;
+    height:100%;
+}
+.float-left{
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.float-none{
+    float: none;
+}
+.container{
+    margin:auto;
+    width:80%;
+}
+:root{
+    --main-background-color: linear-gradient(to right, #56ab2f, #a8e063);
+    --main-color: gold;
+    --opacityBackgroundColor: #63de6369;
+    --hover-color: #1dbd73;
+}
+/*
+    end global classes
+########################
+*/
+
+/*style of header*/
+.header-container{
+    height:800px;
+    width:100%;
+    /*background: var(--main-background-color);*/
+    background: var(--opacityBackgroundColor);
+    color:white;
+}
+.nav-header{
+    padding:10px;
+    width:100%;
+    height:auto;
+}
+.logo-site{
+    width:120px;
+    height:120px;
+}
+.logo-site img{
+    cursor: pointer;
+}
+/*
+#####################################
+    style for ul of header*/
+
+.ul1-header{
+    margin:0;
+    padding:0;
+    list-style: none;
+    /*float: right;*/
+}
+.ul1-header > li{
+    float:right;
+    padding:10px;
+    margin:10px;
+}
+.ul1-header li{
+    width:150px;
+    background-color: rgba(0, 0, 0, .40);
+    text-align: center;
+    height:20px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px 5px #b7b072;
+    line-height: 20px;
+    cursor: pointer;
+
+}
+.ul1-header li a{
+    position: relative;
+    display: block;
+}
+.li-language{
+    position: relative;
+}
+.ul-languages{
+    list-style: none;
+    padding:0px;
+    margin-top:10px;
+    position: absolute;
+    /*top:50px;*/
+    display: none;
+}
+.ul-languages li{
+    margin: 10px 0;
+    height:40px;
+    line-height: 30px;
+}
+.ul-languages li a{
+    top:5px;
+}
+.container-header-content{
+    animation-name: bounceIn;
+    margin-top:250px;
+}
+.container-header-content h1{
+    animation-delay: .7s;
+    margin-bottom:40px;
+}
+.login-btn-descord{
+    border: 1px solid #cecece;
+    background:transparent;
+    color:white;
+    width:200px;
+    min-height:50px;
+    outline: none;
+    cursor: pointer;
+    font-size:17px;
+    animation-delay: .7s;
+}
+.login-btn-descord:hover, .ul1-header li:hover{
+    background-color: var(--hover-color);
+    transition: .5s ease-out;
+}
+/*  end style for ul of header*/
+
+/*
+    end style of header
+#######################################
+*/
+
+/*
+###########################
+    media query
+
+*/
+@media (max-width:648px) {
+    .ul1-header{
+        width:50%;
+    }
+}
+@media (max-width:415px) {
+    .logo-site, .ul1-header{
+        float:none;
+        display: block;
+        margin:auto;
+    }
+    .ul1-header{
+        width:70%;
+    }
+}
+/*
+###########################
+    end media query
+
+*/
