@@ -20,7 +20,7 @@ express.renderComponent(function () {
                 <!--end navbar-->
                 <!--container of header content-->
                 <div class="text-center container-header-content container">
-                    <h1 class="animated bounce">البوت الأسلامي للمسلمين جميعا
+                    <h1 class="animated bounce text-center">البوت الأسلامي للمسلمين جميعا
                     </h1>
                     <button class="animated rubberBand login-btn-descord">الدخول بواسطة الدسكورد</button>
                 </div>
