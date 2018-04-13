@@ -51,7 +51,7 @@ body{
     height:800px;
     width:100%;
     /*background: var(--main-background-color);*/
-    background: #334af266;
+    background: #334af266 !important;
     color:white;
 }
 .nav-header{
