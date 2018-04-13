@@ -51,7 +51,7 @@ body{
     height:800px;
     width:100%;
     /*background: var(--main-background-color);*/
-    background: var(--opacityBackgroundColor);
+    background: #334af266;
     color:white;
 }
 .nav-header{
