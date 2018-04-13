@@ -38,7 +38,7 @@ body{
 :root{
     --main-background-color: linear-gradient(to right, #56ab2f, #a8e063);
     --main-color: gold;
-    --opacityBackgroundColor: #63de6369;
+    --opacityBackgroundColor: #334af266;
     --hover-color: #1dbd73;
 }
 /*
@@ -83,12 +83,12 @@ body{
 }
 .ul1-header li{
     width:150px;
-    background-color: rgba(0, 0, 0, .40);
+    /*background-color: var(--hover-color);*/
     text-align: center;
     height:20px;
-    border: 1px solid #cecece;
-    border-radius: 10px;
-    box-shadow: 0px 0px 60px 5px #b7b072;
+    border-bottom: 1px solid #cecece;
+    /*border-radius: 10px;*/
+    /*box-shadow: 0px 0px 60px 5px #b7b072;*/
     line-height: 20px;
     cursor: pointer;
 
@@ -112,6 +112,7 @@ body{
     margin: 10px 0;
     height:40px;
     line-height: 30px;
+
 }
 .ul-languages li a{
     top:5px;
@@ -136,7 +137,15 @@ body{
     animation-delay: .7s;
 }
 .login-btn-descord:hover, .ul1-header li:hover{
-    background-color: var(--hover-color);
+    /*background-color: var(--hover-color);*/
+    color:gold;
+    transition: .5s ease-out;
+}
+.ul1-header li:hover .ul-languages li{
+    color:white;
+}
+.ul-languages li:hover{
+    color:gold !important;
     transition: .5s ease-out;
 }
 /*  end style for ul of header*/
