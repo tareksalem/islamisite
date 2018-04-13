@@ -1,6 +1,6 @@
 express.renderComponent(function () {
     return (`
-            <div class="header-container animated slideInLeft">
+            <div class="header-container animated slideInRight">
                 <nav class="nav-header">
                     <div class="container">
                        <div class="logo-site float-right">
