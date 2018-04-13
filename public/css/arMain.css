@@ -1,6 +1,10 @@
 body{
     direction: rtl;
     font-family: 'Cairo', sans-serif;
+    margin:0;
+    padding:0;
+    /*background: #f1f1f1;*/
+    width: 100% !important;
 }
 body * {
     font-family: inherit;

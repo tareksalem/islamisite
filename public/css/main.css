@@ -7,8 +7,9 @@ body{
     padding:0;
     /*background: #f1f1f1;*/
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBhhd_JQgqrtT8BF-rFS1W812ktKsxSn4EOO_AdVt1DK5yz3nlWQ");
-    width: 100%;
+    width: 100% !important;
     overflow-x: hidden;
+
 }
 .text-center{
     text-align: center;
@@ -52,11 +53,11 @@ body{
     height:800px;
     width:100%;
     /*background: var(--main-background-color);*/
-    background: #334af266 !important;
+    background: var(--opacityBackgroundColor) !important;
     color:white;
 }
 .nav-header{
-    padding:10px;
+    padding:10px 0;
     width:100%;
     height:auto;
 }
